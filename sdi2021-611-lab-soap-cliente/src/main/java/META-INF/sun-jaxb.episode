@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.04.24 a las 01:58:18 PM CEST 
+
+  -->
+      
+    <bindings xmlns:tns="http://uniovi.com/soap/ws" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.uniovi.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:getMarksRequest">
+                  
+            <class ref="com.uniovi.wsdl.GetMarksRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getMarksResponse">
+                  
+            <class ref="com.uniovi.wsdl.GetMarksResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:user">
+                  
+            <class ref="com.uniovi.wsdl.User"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:mark">
+                  
+            <class ref="com.uniovi.wsdl.Mark"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
